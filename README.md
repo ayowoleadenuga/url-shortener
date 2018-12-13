@@ -3,26 +3,12 @@ A Java Spring Boot application service that shortens long urls using redis as th
 
 ## Parameters
 
-- **page** — Return a specific page in the photo stream. Page numbering is 1-based.
-- **rpp** — The number of results to return. Can not be over 100, default 20.
-
-***
-
-## Return format
-A JSON object containing users that liked that photo.
-
-- **current_page** — Number of the page that is returned.
-- **total_pages** — Total number of pages in this feature's stream.
-- **total_items** — Total number of items in this feature's stream.
-- **users** — Profile of the author of the comment in **[short format][]**.
+- **link** — Takes a long url in text format as body param
 
 ***
 
 ## Errors
 All known errors cause the resource to return HTTP error code header together with a JSON array containing at least 'status' and 'error' keys describing the source of error.
-
-- **403 Forbidden** — The photo was either deleted, belongs to a deactivated user.
-- **404 Not Found** — Photo with the specified ID does not exist.
 
 
 ***
