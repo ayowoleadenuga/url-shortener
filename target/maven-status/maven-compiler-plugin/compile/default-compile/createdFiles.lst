@@ -1,0 +1,4 @@
+com\evaluation\url_shortener\model\Response.class
+com\evaluation\url_shortener\model\UrlShortenerResource.class
+Utility\UrlUtil.class
+com\evaluation\url_shortener\UrlShortenerApplication.class
