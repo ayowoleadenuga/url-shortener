@@ -2,6 +2,7 @@
 A Java Spring Boot application service that shortens long urls using redis as the live in-memory storage.
 
 ## Parameters
+Ensure that redis is active.
 
 - **link** — Takes a long url in text format as body param
 
@@ -15,7 +16,7 @@ All known errors cause the resource to return HTTP error code header together wi
 
 ## Demo
 **Request**
-Link below as text
+Input link below as text
 
     https://www.google.com/search?ei=uWgSXLfLIIackwWTuKaICQ&q=java+servlet+redirection+for+spring+app+tutotrial+video&oq=java+servlet+redirection+for+spring+app+tutotrial+video&gs_l=psy-ab.3...479458.485831..486910...1.0..1.354.3210.0j12j2j2......0....1..gws-wiz.......0i71.rXrFLy_gmFw
 
@@ -29,5 +30,5 @@ Link below as text
 }
 ```
 **Redirect**
-```Method: GET Link: /rest/22adc505 ```
+```Method: GET    http://localhost:8080/rest/22adc505 ```
 
