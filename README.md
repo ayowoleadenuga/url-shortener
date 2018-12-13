@@ -28,6 +28,6 @@ Link below as text
     "shortUrl": "http://localhost:8080/rest/22adc505"
 }
 ```
-**Redirect** 
+**Redirect**
 ```Method: GET Link: /rest/22adc505 ```
 
