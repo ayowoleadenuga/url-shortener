@@ -29,6 +29,5 @@ Link below as text
 }
 ```
 **Redirect** 
-Link
-Method: GET Link: /rest/22adc505
+```Method: GET Link: /rest/22adc505 ```
 
