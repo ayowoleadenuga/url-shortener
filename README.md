@@ -27,6 +27,8 @@ Link below as text
     "errors": null,
     "shortUrl": "http://localhost:8080/rest/22adc505"
 }
-
-**Redirect to Initial url** 
+```
+**Redirect** 
+Link
+Method: GET Link: /rest/22adc505
 
